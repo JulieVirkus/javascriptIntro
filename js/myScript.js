@@ -13,6 +13,8 @@ var veritas = "Julemanden ´findes´, og jorden er flad.";
 
 // klister  (+)
 var and = "<h1> Mit navn er Anders, Anders And</h1>";
+var gaas = "Madam Gaas";
+var uha = "De Nattergale";
 
 // datatyper
 var x = 0;
@@ -32,9 +34,9 @@ var ud = 9999;
 // objekter
 
 /* se resultatet af din kode i browserens udviklings-værktøj */
-console.log( veritas + " " + and);
+console.log( veritas + " " + and + gaas);
 console.log ("sum:" + " " + (ind - ud) * 12);
-document.write (veritas + and);
+document.write (veritas + and + gaas);
 
 
 // næste gang: events.
